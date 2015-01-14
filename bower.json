@@ -8,5 +8,8 @@
   "description": "Project 20150114",
   "main": "public/index.html",
   "license": "MIT",
-  "private": true
+  "private": true,
+  "dependencies": {
+    "Metro-UI-CSS": "https://github.com/olton/Metro-UI-CSS.git#~2.0.23"
+  }
 }
