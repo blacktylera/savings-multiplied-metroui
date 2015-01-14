@@ -1,0 +1,12 @@
+{
+  "name": "savings-multiplied-metroui",
+  "version": "1.0.0",
+  "homepage": "https://github.com/luketlancaster/savings-multiplied-metroui",
+  "authors": [
+    "Shoup & Lancaster"
+  ],
+  "description": "Project 20150114",
+  "main": "public/index.html",
+  "license": "MIT",
+  "private": true
+}
