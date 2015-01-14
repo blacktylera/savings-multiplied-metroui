@@ -6,21 +6,23 @@ html(lang="en-US")
     meta(name="viewport", content="width=device-width, initial-scale=1")
     title My Title
     link(rel="stylesheet" href="/vendor/Metro-UI-CSS/css/metro-bootstrap.css")
+    link(rel="stylesheet" href="vendor/Metro-UI-CSS/css/metro-bootstrap-responsive.css")
     link(rel="stylesheet" href="css/main.css")
 
   body
     // [if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]
+
     .metro
-      .grid
+      .grid.fluid
         .row
-          .span12.bg-olive
+          .span12.bg-olive.text-center
             .row.top-info
               ul.span3.offset9.unstyled.inline
                 li sign in
                 li sign up
               .grid.maininfo
                 .row
-                  .span5.offset1.bg-white
+                  .span5.offset1.bg-white.top-pic
                     img(src="https://raw.githubusercontent.com/elizabrock/SavingsMultipliedRedux/master/app/assets/images/savings-multiplied-logo.png")
                   .span5.bg-white.top-nav
                     ul.unstyled.inline
