@@ -1,0 +1,19 @@
+{
+  "name": "savings-multiplied-metroui",
+  "version": "1.0.0",
+  "description": "Project using Metro UI",
+  "main": "public/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/luketlancaster/savings-multiplied-metroui.git"
+  },
+  "author": "Luke Lancaster <luketlancaster@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/luketlancaster/savings-multiplied-metroui/issues"
+  },
+  "homepage": "https://github.com/luketlancaster/savings-multiplied-metroui"
+}
