@@ -10,7 +10,10 @@
     "type": "git",
     "url": "https://github.com/luketlancaster/savings-multiplied-metroui.git"
   },
-  "author": "Luke Lancaster <luketlancaster@gmail.com>",
+  "authors": [
+    "Luke Lancaster <luketlancaster@gmail.com>",
+    "Shoup <pjprogrammer1953@gmail.com"
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/luketlancaster/savings-multiplied-metroui/issues"
