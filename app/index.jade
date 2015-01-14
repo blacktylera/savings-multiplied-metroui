@@ -11,58 +11,63 @@ html(lang="en-US")
   body
     // [if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]
     .metro
-      ul.span3
-        li sign in
-        li sign up
       .grid
         .row
-          .span6
-            h1 Savings Multiplied
-          .span6
-            ul
-              li about
-              li contact
-              li blog
-              li press
-            h4 where parents of multiples save, sell and share
-      .grid
-        .row
-          nav.span12
-            ul
-              li Buy
-              li Sell
-              li How it Works
-              li Links
-              li Community
-              input(type="text" placeholder="search")
+          .span12.bg-olive
+            .row.top-info
+              ul.span3.offset9.unstyled.inline
+                li sign in
+                li sign up
+              .grid.maininfo
+                .row
+                  .span5.offset1.bg-white
+                    img(src="https://raw.githubusercontent.com/elizabrock/SavingsMultipliedRedux/master/app/assets/images/savings-multiplied-logo.png")
+                  .span5.bg-white.top-nav
+                    ul.unstyled.inline
+                      li about
+                      li contact
+                      li blog
+                      li press
+                    h4 where parents of multiples save, sell and share
+            .grid.navbar
+              .row.bg-pink
+                nav.span11.offset1
+                  ul.unstyled.inline.text-center
+                    li Buy
+                    li Sell
+                    li How it Works
+                    li Links
+                    li Community
+                    input(type="text" placeholder="search")
 
-      .grid
-        .row
-          .span6.offset1
-            h2 We're making onse aspect of life easier for parents of mulitples:
-            h3 IMG buying and selling gently used sets of clothes!
-            SHOP NOW
-            TREE IMAGE
-          .span4
-            IMAGE 1
-            IMAGE 2
-            IMAGE 3
-      .grid
-        .row
-          .span10.offest1
-            ul
-              li Facebook
-              li Twitter
-              li Message Boards
-              li Special Offers
-      .grid
-        .row
-          .span6.offset3
-            ul
-              li Link Here
-              li Link Here
-              li Link Here
-              li Link Here
-              li Link Here
+            .grid
+              .row.bg-white
+                .span6.offset1
+                  h2 We're making one aspect of life easier for parents of mulitples:
+                  h3 IMG buying and selling gently used sets of clothes!
+                  SHOP NOW
+                  TREE IMAGE
+                .span4
+                  img(src="https://raw.githubusercontent.com/elizabrock/SavingsMultipliedRedux/master/app/assets/images/children/twins.jpg")
+                  img(src="https://raw.githubusercontent.com/elizabrock/SavingsMultipliedRedux/master/app/assets/images/children/triplets.jpg")
+                  img(src="https://raw.githubusercontent.com/elizabrock/SavingsMultipliedRedux/master/app/assets/images/children/quads.jpg")
+                  
+            .grid
+              .row
+                .span12
+                  ul.unstyled.inline.text-center
+                    li.icon-facebook Facebook
+                    li.icon-twitter Twitter
+                    li.icon-comments-4 Message Boards
+                    li.icon-dollar-2 Special Offers
+            .grid
+              .row
+                .span12
+                  ul.unstyled.inline.text-center
+                    li.footer-link Link Here
+                    li.footer-link Link Here
+                    li.footer-link Link Here
+                    li.footer-link Link Here
+                    li.footer-link Link Here
 
     script(src="js/main.js")
