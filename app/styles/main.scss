@@ -3,33 +3,39 @@
 
 
 li {
-	padding: 20px;
+	padding: 10px;
 }
 
+
+body .metro .grid .span12 > .top-info .maininfo > .row {
+	margin: -20px 8.55%;
+	max-width: 80%;
+}
 
 body .metro .grid .span12 > .top-info .maininfo > .row > .top-nav {
 	margin-left: 0;
 	padding-left: 20px;
-	border-radius: 0 10px 0 0;
 }
+
 
 body .metro .grid .span12 > .top-info .maininfo > .row > .top-pic {
-	border-radius: 10px 0 0 0;
 }
 
-
-
-
 body .metro .grid .span12 .secondary-content .row {
-	margin: -20px auto;
+	margin: -20px 8.55%;
 	background-color: white;
 	max-width: 80%;
 }
 
+#search-top {
+	margin-left: 21.8%;
+}
 
+#image-list {
+	margin: 5px 0 auto 5px;
+}
 
 .connect-footer {
-	margin: inherit auto;
-	border-radius: 0 0 10px 10px;
+	margin: -20px 8.5%;
 	max-width: 80%;
 }

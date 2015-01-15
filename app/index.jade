@@ -6,7 +6,6 @@ html(lang="en-US")
     meta(name="viewport", content="width=device-width, initial-scale=1")
     title My Title
     link(rel="stylesheet" href="/vendor/Metro-UI-CSS/css/metro-bootstrap.css")
-    link(rel="stylesheet" href="vendor/Metro-UI-CSS/css/metro-bootstrap-responsive.css")
     link(rel="stylesheet" href="css/main.css")
 
   body
@@ -17,11 +16,11 @@ html(lang="en-US")
         .row
           .span12.bg-olive.text-center
             .row.top-info
-              ul.span3.offset9.unstyled.inline
+              ul.span3.offset8.unstyled.inline
                 li sign in
                 li sign up
               .grid.maininfo
-                .row
+                .row.span12.bg-white
                   .span5.offset1.bg-white.top-pic
                     img(src="https://raw.githubusercontent.com/elizabrock/SavingsMultipliedRedux/master/app/assets/images/savings-multiplied-logo.png")
                   .span5.bg-white.top-nav
@@ -34,13 +33,15 @@ html(lang="en-US")
             .grid.navbar
               .row.bg-pink
                 nav.span11.offset1
-                  ul.unstyled.inline.text-center.nav-list
+                  ul.horizontal-menu.text-left
                     li Buy
                     li Sell
                     li How it Works
                     li Links
                     li Community
-                    input(type="text" placeholder="search")
+                    .input-control.text.size4.margin10.nrm#search-top
+                      input(type="text" placeholder="Search...")
+
 
             .grid.secondary-content
               .row
@@ -50,10 +51,16 @@ html(lang="en-US")
                   h3 buying and selling gently used sets of clothes!
                   img(src="https://raw.githubusercontent.com/elizabrock/SavingsMultipliedRedux/master/app/assets/images/homepage/left_2_shop_now.png")
                 .span4
-                  img(src="https://raw.githubusercontent.com/elizabrock/SavingsMultipliedRedux/master/app/assets/images/children/twins.jpg")
-                  img(src="https://raw.githubusercontent.com/elizabrock/SavingsMultipliedRedux/master/app/assets/images/children/triplets.jpg")
-                  img(src="https://raw.githubusercontent.com/elizabrock/SavingsMultipliedRedux/master/app/assets/images/children/quads.jpg")
-                  
+                  .image-container.span12#image-list
+                    img(src="https://raw.githubusercontent.com/elizabrock/SavingsMultipliedRedux/master/app/assets/images/children/twins.jpg")
+                    .overlay-fluid
+                      div.text-bold These are twins!!!
+                  .image-container.span12#image-list
+                    img(src="https://raw.githubusercontent.com/elizabrock/SavingsMultipliedRedux/master/app/assets/images/children/triplets.jpg")
+                    .overlay-fluid
+                      div.text-bold Triplets
+                  .image-container.span12#image-list    
+                    img(src="https://raw.githubusercontent.com/elizabrock/SavingsMultipliedRedux/master/app/assets/images/children/quads.jpg")
             .grid
               .row
                 .span10.offset1.bg-white.connect-footer
@@ -65,7 +72,7 @@ html(lang="en-US")
             .grid
               .row
                 .span12
-                  ul.unstyled.inline.text-center
+                  ul.horizontal-menu.compact
                     li Link Here
                     li Link Here
                     li Link Here
