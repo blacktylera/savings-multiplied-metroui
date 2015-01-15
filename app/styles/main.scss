@@ -4,10 +4,23 @@
 
 li {
 /*	padding: 20px;  */
-	padding: 10px;
+	padding: 20px;
 }
 
 /* We're making one aspect of life easier... */
+
+.metro .navigation-bar-content .element {
+	padding: 10px 0;
+}
+
+.metro .navigation-bar-content .element .buysell{
+	margin: 5px auto;
+	font-size: 2rem;
+}
+
+.metro .navigation-bar-content .element .input-control.text {
+	top: -4px;
+}
 
 h2, h4 {
 	color: aqua;
@@ -74,6 +87,11 @@ body .metro .grid .span12 > .top-info .maininfo > .row > .top-pic {
 body .metro .grid .span12 .secondary-content .row {
 	margin: -20px 8.55%;
 	background-color: white;
+	max-width: 80%;
+}
+
+body .metro .grid .span12 .secondary-content .social {
+	margin: -20px 9.55%;
 	max-width: 80%;
 }
 

@@ -23,43 +23,45 @@ html(lang="en-US")
 
               .grid.maininfo
                 .row.span12.bg-white
-                  .span5.offset1.bg-white.top-pic
+                  .span4.offset1.bg-white.top-pic
                     img(src="https://raw.githubusercontent.com/elizabrock/SavingsMultipliedRedux/master/app/assets/images/savings-multiplied-logo.png")
-                  .span5.bg-white.top-nav
+                  .span7.bg-white.top-nav.margin20.nrm
                     ul.unstyled.inline
                       li#about.acbp About
                       li#contact.acbp Contact
                       li#blog.acbp Blog
                       li#press.acbp Press
                     .sign where parents of multiples save, sell & share
-            .grid.navbar
-              .row.bg-pink
-                nav.span9.offset1
-                  ul.unstyled.inline.text-center
-                    li.buysell Buy
-                    li.buysell Sell
-                    li.buysell How it Works
-                    li.buysell Links
-                    li.buysell Community
-                    input(type="text" placeholder="search")
 
-            .grid.secondary-content
-              .row
-                .span1
-                .span6
-                  h2 We're making one aspect of life easier for parents of multiples:
-                  h3 IMG buying and selling gently used sets of clothes!
-                  SHOP NOW
-                  img(src="https://raw.githubusercontent.com/elizabrock/SavingsMultipliedRedux/master/app/assets/images/homepage/tree.png")
-                nav.span11.offset1
-                  ul.horizontal-menu.text-left
-                    li Buy
-                    li Sell
-                    li How it Works
-                    li Links
-                    li Community
-                    .input-control.text.size4.margin10#search-top
-                      input(type="text" placeholder="Search...")
+            .grid.navagation-bar
+              .row.bg-pink.navigation-bar-content
+                nav.span9.offset1.element
+                  .span2.buysell Buy
+                  .span2.buysell Sell
+                  .span2.buysell How it Works
+                  .span2.buysell Links
+                  .span2.buysell Community
+                  .span2.element.input-element
+                    form
+                      .input-control.text.margin20
+                        input(type="text" placeholder="search")
+                        button.btn-search
+
+            //- .grid.navagation-bar
+            //-   .row.bg-pink.navigation-bar-content
+            //-     nav.span12.element
+            //-       ul.unstyled.inline.text-bold.text-center
+            //-         li.buysell Buy
+            //-         li.buysell Sell
+            //-         li.buysell How it Works
+            //-         li.buysell Links
+            //-         li.buysell Community
+            //-         li.element.input-element
+            //-           form
+            //-             .input-control.text.margin20.nrm
+            //-               input(type="text" placeholder="search")
+            //-               button.btn-search
+
 
 
             .grid.secondary-content
@@ -80,14 +82,21 @@ html(lang="en-US")
                       div.text-bold Triplets
                   .image-container.span12#image-list    
                     img(src="https://raw.githubusercontent.com/elizabrock/SavingsMultipliedRedux/master/app/assets/images/children/quads.jpg")
-            .grid
-              .row
-                .span10.offset1.bg-white.connect-footer
-                  ul.unstyled.inline.text-center
-                    li.icon-facebook Facebook
-                    li.icon-twitter Twitter
-                    li.icon-comments-4 Message Boards
-                    li.icon-dollar-2 Special Offers
+              .span10.offset1.social
+                .tile-area.no-padding
+                  .row.no-margin.no-padding
+                    .tile.half.bg-lightBlue.ol-transparent
+                      .tile-content.icon
+                        .icon-facebook
+                    .tile.half.bg-lightBlue.ol-transparent
+                      .tile-content.icon
+                        .icon-twitter
+                    .tile.half.bg-lightBlue.ol-transparent
+                      .tile-content.icon
+                        .icon-shit
+                    .tile.half.bg-lightBlue.ol-transparent
+                      .tile-content.icon
+                        .icon-github-3
             .grid
               .row
                 .span12
