@@ -21,13 +21,15 @@ body .metro .grid .span12 > .top-info .maininfo > .row > .top-pic {
 
 
 body .metro .grid .span12 .secondary-content .row {
-	margin-top: -20px;
-	margin-bottom: -20px;
+	margin: -20px auto;
 	background-color: white;
+	max-width: 80%;
 }
 
 
 
 .connect-footer {
+	margin: inherit auto;
 	border-radius: 0 0 10px 10px;
+	max-width: 80%;
 }
