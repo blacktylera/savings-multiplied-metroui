@@ -3,9 +3,58 @@
 
 
 li {
+/*	padding: 20px;  */
 	padding: 10px;
 }
 
+/* We're making one aspect of life easier... */
+
+h2, h4 {
+	color: aqua;
+	font-family: "Droid Sans", sans-serif;
+	font-weight: 600; 
+}
+
+.span5 {
+	height: 12em;
+
+}
+
+.acbp {
+	color: white;
+	width: 8em;
+	border-radius: 10px 10px 10px 10px;
+}
+
+.buysell {
+	color: purple;	
+	font-weight: 1000;
+	width: 8em;
+}
+
+#about {
+	background-color: aqua;
+}
+
+#contact {
+	background-color: olive;
+}
+
+#blog {
+	background-color: purple;
+}
+
+#press {
+	background-color: fuchsia;
+}
+
+
+/* where parents of multiples save, sell & share  */
+
+.sign {
+	color: aqua;
+	font-family: "Droid Sans", sans-serif;
+}
 
 body .metro .grid .span12 > .top-info .maininfo > .row {
 	margin: -20px 8.55%;
@@ -19,6 +68,7 @@ body .metro .grid .span12 > .top-info .maininfo > .row > .top-nav {
 
 
 body .metro .grid .span12 > .top-info .maininfo > .row > .top-pic {
+	border-radius: 10px 0 0 0;
 }
 
 body .metro .grid .span12 .secondary-content .row {

@@ -14,24 +14,43 @@ html(lang="en-US")
     .metro
       .grid.fluid
         .row
-          .span12.bg-olive.text-center
+          .span12.bg-blue.text-center
             .row.top-info
               ul.span3.offset8.unstyled.inline
-                li sign in
-                li sign up
+                li.sign sign in
+                li.sign |
+                li.sign sign up
+
               .grid.maininfo
                 .row.span12.bg-white
                   .span5.offset1.bg-white.top-pic
                     img(src="https://raw.githubusercontent.com/elizabrock/SavingsMultipliedRedux/master/app/assets/images/savings-multiplied-logo.png")
                   .span5.bg-white.top-nav
                     ul.unstyled.inline
-                      li about
-                      li contact
-                      li blog
-                      li press
-                    h4 where parents of multiples save, sell and share
+                      li#about.acbp About
+                      li#contact.acbp Contact
+                      li#blog.acbp Blog
+                      li#press.acbp Press
+                    .sign where parents of multiples save, sell & share
             .grid.navbar
               .row.bg-pink
+                nav.span9.offset1
+                  ul.unstyled.inline.text-center
+                    li.buysell Buy
+                    li.buysell Sell
+                    li.buysell How it Works
+                    li.buysell Links
+                    li.buysell Community
+                    input(type="text" placeholder="search")
+
+            .grid.secondary-content
+              .row
+                .span1
+                .span6
+                  h2 We're making one aspect of life easier for parents of multiples:
+                  h3 IMG buying and selling gently used sets of clothes!
+                  SHOP NOW
+                  img(src="https://raw.githubusercontent.com/elizabrock/SavingsMultipliedRedux/master/app/assets/images/homepage/tree.png")
                 nav.span11.offset1
                   ul.horizontal-menu.text-left
                     li Buy
