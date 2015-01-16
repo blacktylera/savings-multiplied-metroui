@@ -7,6 +7,14 @@ li {
 	padding: 20px;
 }
 
+.metro {
+	margin-top: -20px;
+}
+
+.metro .grid .row .big-bod {
+	margin-bottom: -20px;
+}
+
 /* We're making one aspect of life easier... */
 
 .metro .navigation-bar-content .element {
@@ -36,7 +44,6 @@ h2, h4 {
 .acbp {
 	color: white;
 	width: 8em;
-	border-radius: 10px 10px 10px 10px;
 }
 
 .buysell {
@@ -102,10 +109,10 @@ body .metro .grid .span12 .secondary-content .social {
 body .metro .grid .span12 .secondary-content .social .social__li {
 	//transition: all 1.1s ease-in-out;
 	transition: 2s ease-in-out;
-	transform: rotate(5turn);
+	transform: rotate(1turn);
 	:hover {
 		transition: 2s ease-in-out;
-		transform: rotate(5turn);
+		transform: rotate(1turn);
 	//	transform: scale(1.5);
 	}
 }
