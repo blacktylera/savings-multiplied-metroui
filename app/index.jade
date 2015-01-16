@@ -14,62 +14,64 @@ html(lang="en-US")
     .metro
       .grid.fluid
         .row
-          .span12.bg-blue.text-center
+          .span12.bg-blue.text-center.big-bod
             .row.top-info
-              ul.span3.offset8.unstyled.inline
-                li.sign sign in
-                li.sign |
-                li.sign sign up
+              .horizontal-menu.padding10
+                ul.span3.offset8
+                  li.top-link sign in
+                  li.top-link |
+                  li.top-link sign up
 
               .grid.maininfo
                 .row.span12.bg-white
-                  .span5.offset1.bg-white.top-pic
+                  .span4.offset1.bg-white.top-pic
                     img(src="https://raw.githubusercontent.com/elizabrock/SavingsMultipliedRedux/master/app/assets/images/savings-multiplied-logo.png")
-                  .span5.bg-white.top-nav
+                  .span7.bg-white.top-nav.margin20.nrm
                     ul.unstyled.inline
                       li#about.acbp About
                       li#contact.acbp Contact
                       li#blog.acbp Blog
                       li#press.acbp Press
                     .sign where parents of multiples save, sell & share
-            .grid.navbar
-              .row.bg-pink
-                nav.span9.offset1
-                  ul.unstyled.inline.text-center
-                    li.buysell Buy
-                    li.buysell Sell
-                    li.buysell How it Works
-                    li.buysell Links
-                    li.buysell Community
-                    input(type="text" placeholder="search")
+
+            .grid.navagation-bar
+              .row.bg-pink.navigation-bar-content
+                nav.span9.offset1.element
+                  .span2.buysell Buy
+                  .span2.buysell Sell
+                  .span2.buysell How it Works
+                  .span2.buysell Links
+                  .span2.buysell Community
+                  .span2.element.input-element
+                    form
+                      .input-control.text.margin20
+                        input(type="text" placeholder="search")
+                        button.btn-search
+
+            //- .grid.navagation-bar
+            //-   .row.bg-pink.navigation-bar-content
+            //-     nav.span12.element
+            //-       ul.unstyled.inline.text-bold.text-center
+            //-         li.buysell Buy
+            //-         li.buysell Sell
+            //-         li.buysell How it Works
+            //-         li.buysell Links
+            //-         li.buysell Community
+            //-         li.element.input-element
+            //-           form
+            //-             .input-control.text.margin20.nrm
+            //-               input(type="text" placeholder="search")
+            //-               button.btn-search
+
+
 
             .grid.secondary-content
               .row
-                .span1
-                .span6
-                  h2 We're making one aspect of life easier for parents of multiples:
-                  h3 IMG buying and selling gently used sets of clothes!
-                  SHOP NOW
-                  img(src="https://raw.githubusercontent.com/elizabrock/SavingsMultipliedRedux/master/app/assets/images/homepage/tree.png")
-                nav.span11.offset1
-                  ul.horizontal-menu.text-left
-                    li Buy
-                    li Sell
-                    li How it Works
-                    li Links
-                    li Community
-                    .input-control.text.size4.margin10#search-top
-                      input(type="text" placeholder="Search...")
-
-
-            .grid.secondary-content
-              .row
-                .span6.offset1
+                .span6.offset1.text-left
                   h2 We're making one aspect of life easier for parents of mulitples:
                   img.place-left(src="https://raw.githubusercontent.com/elizabrock/SavingsMultipliedRedux/master/app/assets/images/owls/owl_bright_blue_64.png") 
-                  h3 buying and selling gently used sets of clothes!
+                  h3.padding10 buying and selling gently used sets of clothes!
                   img(src="https://raw.githubusercontent.com/elizabrock/SavingsMultipliedRedux/master/app/assets/images/homepage/left_2_shop_now.png")
-
                 .span4
                   .image-container.span12#image-list
                     img(src="https://raw.githubusercontent.com/elizabrock/SavingsMultipliedRedux/master/app/assets/images/children/twins.jpg")
@@ -81,7 +83,6 @@ html(lang="en-US")
                       div.text-bold Triplets
                   .image-container.span12#image-list    
                     img(src="https://raw.githubusercontent.com/elizabrock/SavingsMultipliedRedux/master/app/assets/images/children/quads.jpg")
-
                 .span12.social
                   .div
                     .row
@@ -99,8 +100,8 @@ html(lang="en-US")
                           .icon-github-3
             .grid
               .row
-                .span12
-                  ul.horizontal-menu.compact
+                .span12.margin20
+                  ul.horizontal-menu
                     li Link Here
                     li Link Here
                     li Link Here
