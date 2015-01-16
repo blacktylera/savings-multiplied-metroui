@@ -16,10 +16,11 @@ html(lang="en-US")
         .row
           .span12.bg-blue.text-center
             .row.top-info
-              ul.span3.offset8.unstyled.inline
-                li.sign sign in
-                li.sign |
-                li.sign sign up
+              .horizontal-menu.padding10
+                ul.span3.offset8
+                  li.top-link sign in
+                  li.top-link |
+                  li.top-link sign up
 
               .grid.maininfo
                 .row.span12.bg-white
@@ -66,10 +67,10 @@ html(lang="en-US")
 
             .grid.secondary-content
               .row
-                .span6.offset1
+                .span6.offset1.text-left
                   h2 We're making one aspect of life easier for parents of mulitples:
                   img.place-left(src="https://raw.githubusercontent.com/elizabrock/SavingsMultipliedRedux/master/app/assets/images/owls/owl_bright_blue_64.png") 
-                  h3 buying and selling gently used sets of clothes!
+                  h3.padding10 buying and selling gently used sets of clothes!
                   img(src="https://raw.githubusercontent.com/elizabrock/SavingsMultipliedRedux/master/app/assets/images/homepage/left_2_shop_now.png")
                 .span4
                   .image-container.span12#image-list
@@ -82,21 +83,21 @@ html(lang="en-US")
                       div.text-bold Triplets
                   .image-container.span12#image-list    
                     img(src="https://raw.githubusercontent.com/elizabrock/SavingsMultipliedRedux/master/app/assets/images/children/quads.jpg")
-              .span10.offset1.social
-                .tile-area.no-padding
-                  .row.no-margin.no-padding
-                    .tile.half.bg-lightBlue.ol-transparent
-                      .tile-content.icon
-                        .icon-facebook
-                    .tile.half.bg-lightBlue.ol-transparent
-                      .tile-content.icon
-                        .icon-twitter
-                    .tile.half.bg-lightBlue.ol-transparent
-                      .tile-content.icon
-                        .icon-shit
-                    .tile.half.bg-lightBlue.ol-transparent
-                      .tile-content.icon
-                        .icon-github-3
+                .span12.social
+                  .div
+                    .row
+                      .tile.half.bg-darkCyan.ol-transparent.social__li
+                        .tile-content.icon
+                          .icon-facebook
+                      .tile.half.bg-lightBlue.ol-transparent.social__li
+                        .tile-content.icon
+                          .icon-twitter
+                      .tile.half.bg-brown.ol-transparent.social__li
+                        .tile-content.icon
+                          .icon-shit
+                      .tile.half.bg-darkIndigo.ol-transparent.social__li
+                        .tile-content.icon
+                          .icon-github-3
             .grid
               .row
                 .span12
