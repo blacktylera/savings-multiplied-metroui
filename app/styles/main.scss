@@ -3,7 +3,6 @@
 
 
 li {
-/*	padding: 20px;  */
 	padding: 10px;
 }
 
@@ -17,13 +16,58 @@ h2, h4 {
 
 .span5 {
 	height: 12em;
+	border-radius: 10px 10px 0 0; 
+}
 
+.inputSearch {
+	border-radius: 10px 10px 10px 10px;
+	width: 100px;
+	border: 2px solid black;
+}
+
+.inputLimit {
+	width: 150px;
+	float: top;
+	margin: 4px;
+}
+
+.merch {
+	background: white;
+	float: right;
+}
+
+.item {
+	margin: 26px;
+	color: black;
+	background: olive;
+	height: 10em;
+}
+
+.controlPanel {
+	background: olive;
+	float: left;
+	margin: 5%;
+	border-radius: 20px 20px 20px 20px;
+}
+
+/* Link here */
+.lh {
+	color: white;
+}
+
+/* left side panel - Limit your search by: */
+.lysb {
+	height: 40em;
+	border-radius: 10px 10px 10px 10px;
+	margin: 5%;
 }
 
 .acbp {
 	color: white;
-	width: 8em;
+	width: 22%;
 	border-radius: 10px 10px 10px 10px;
+	margin: 1em;
+	float: left;  
 }
 
 .buysell {
@@ -48,17 +92,19 @@ h2, h4 {
 	background-color: fuchsia;
 }
 
-
-/* where parents of multiples save, sell & share  */
+/* where parents of multiples save, sell & share; sign in | sign up */
 
 .sign {
 	color: aqua;
 	font-family: "Droid Sans", sans-serif;
+	font-size: 15px;
+	font-weight: bold;
 }
 
 body .metro .grid .span12 > .top-info .maininfo > .row {
-	margin: -20px 8.55%;
+	margin: -20px 9%;
 	max-width: 80%;
+	border-radius: 10px 10px 0 0; 
 }
 
 body .metro .grid .span12 > .top-info .maininfo > .row > .top-nav {
@@ -68,13 +114,14 @@ body .metro .grid .span12 > .top-info .maininfo > .row > .top-nav {
 
 
 body .metro .grid .span12 > .top-info .maininfo > .row > .top-pic {
-	border-radius: 10px 0 0 0;
+
 }
 
 body .metro .grid .span12 .secondary-content .row {
-	margin: -20px 8.55%;
+	margin: -20px 9%;
 	background-color: white;
 	max-width: 80%;
+	border-radius: 0 0 10px 10px;
 }
 
 #search-top {
