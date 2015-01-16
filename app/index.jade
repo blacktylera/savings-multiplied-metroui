@@ -6,7 +6,7 @@ html(lang="en-US")
     meta(name="viewport", content="width=device-width, initial-scale=1")
     title My Title
     link(rel="stylesheet" href="/vendor/Metro-UI-CSS/css/metro-bootstrap.css")
-    link(rel="stylesheet" href="css/main.css")
+    link(rel="stylesheet" href="css/main_page.css")
 
   body
     // [if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]
@@ -69,6 +69,7 @@ html(lang="en-US")
                   img.place-left(src="https://raw.githubusercontent.com/elizabrock/SavingsMultipliedRedux/master/app/assets/images/owls/owl_bright_blue_64.png") 
                   h3 buying and selling gently used sets of clothes!
                   img(src="https://raw.githubusercontent.com/elizabrock/SavingsMultipliedRedux/master/app/assets/images/homepage/left_2_shop_now.png")
+
                 .span4
                   .image-container.span12#image-list
                     img(src="https://raw.githubusercontent.com/elizabrock/SavingsMultipliedRedux/master/app/assets/images/children/twins.jpg")
@@ -80,14 +81,22 @@ html(lang="en-US")
                       div.text-bold Triplets
                   .image-container.span12#image-list    
                     img(src="https://raw.githubusercontent.com/elizabrock/SavingsMultipliedRedux/master/app/assets/images/children/quads.jpg")
-            .grid
-              .row
-                .span10.offset1.bg-white.connect-footer
-                  ul.unstyled.inline.text-center
-                    li.icon-facebook Facebook
-                    li.icon-twitter Twitter
-                    li.icon-comments-4 Message Boards
-                    li.icon-dollar-2 Special Offers
+
+                .span12.social
+                  .div
+                    .row
+                      .tile.half.bg-darkCyan.ol-transparent.social__li
+                        .tile-content.icon
+                          .icon-facebook
+                      .tile.double.bg-lightBlue.ol-transparent.social__li
+                        .tile-content.icon
+                          .icon-twitter
+                      .tile.double.bg-brown.ol-transparent.social__li
+                        .tile-content.icon
+                          .icon-shit
+                      .tile.half.bg-darkIndigo.ol-transparent.social__li
+                        .tile-content.icon
+                          .icon-github-3
             .grid
               .row
                 .span12
