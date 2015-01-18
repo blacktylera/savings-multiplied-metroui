@@ -12,97 +12,74 @@ html(lang="en-US")
     // [if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]
 
     .metro
-      .grid.fluid
+      .product_grid_container
         .row
-          .span12.bg-blue.text-center.big-bod
-            .row.top-info
-              .horizontal-menu.padding10
-                ul.span3.offset8
-                  li.top-link sign in
-                  li.top-link |
-                  li.top-link sign up
+          .product_grid_header
+          p.product_file_path.span3 "All > Twin > B/G"
+          lable.product_sort_by Sort by
+          select.product_dropdown.offset0
+            option Price
+            option Duration
+            option Popularity
+            option Seller Rating
+          .productpage_navigation.span4.offset4 
+            p prev. | page num. | next | view all
 
-              .grid.maininfo
-                .row.span12.bg-white
-                  .span5.bg-white.top-pic
-                    img(src="https://raw.githubusercontent.com/elizabrock/SavingsMultipliedRedux/master/app/assets/images/savings-multiplied-logo.png")
-                  .span7.bg-white.top-nav.margin20.nrm
-                    ul.unstyled.inline
-                      li#about.acbp About
-                      li#contact.acbp Contact
-                      li#blog.acbp Blog
-                      li#press.acbp Press
-                  .row
-                    .sign where parents of multiples save, sell & share
+      
+        .grid.fluid.product_grid_listing
+          .row
+            .span2.bg-lightgreen
+              .product_example
+              p.product_example_text Sailor Suits $15.00
+              p.product_example_text Jane Joe 4 hours
+            .span2.bg-lightgreen
+              .product_example
+              p.product_example_text Sailor Suits $15.00
+              p.product_example_text Jane Joe 4 hours
+            .span2.bg-lightgreen
+              .product_example
+              p.product_example_text Sailor Suits $15.00
+              p.product_example_text Jane Joe 4 hours
+            .span2.bg-lightgreen
+              .product_example
+              p.product_example_text Sailor Suits $15.00
+              p.product_example_text Jane Joe 4 hours
+          .row
+            .span2.bg-lightgreen
+              .product_example
+              p.product_example_text Sailor Suits $15.00
+              p.product_example_text Jane Joe 4 hours
+            .span2.bg-lightgreen
+              .product_example
+              p.product_example_text Sailor Suits $15.00
+              p.product_example_text Jane Joe 4 hours
+            .span2.bg-lightgreen
+              .product_example
+              p.product_example_text Sailor Suits $15.00
+              p.product_example_text Jane Joe 4 hours
+            .span2.bg-lightgreen
+              .product_example
+              p.product_example_text Sailor Suits $15.00
+              p.product_example_text Jane Joe 4 hours
+          .row
+            .span2.bg-lightgreen
+              .product_example
+              p.product_example_text Sailor Suits $15.00
+              p.product_example_text Jane Joe 4 hours
+            .span2.bg-lightgreen
+              .product_example
+              p.product_example_text Sailor Suits $15.00
+              p.product_example_text Jane Joe 4 hours
+            .span2.bg-lightgreen
+              .product_example
+              p.product_example_text Sailor Suits $15.00
+              p.product_example_text Jane Joe 4 hours
+            .span2.bg-lightgreen  
+              .product_example
+              p.product_example_text Sailor Suits $15.00
+              p.product_example_text Jane Joe 4 hours
+          
 
-          .grid.navbar
-            .row.bg-pink
-              nav.span9.offset1
-                ul.unstyled.inline.text-center
-                  li.buysell Buy
-                  li.buysell Sell
-                  li.buysell How it Works
-                  li.buysell Links
-                  li.buysell Community
-                  input.inputSearch(type="text" placeholder="search")
 
-            .grid.secondary-content
-              .row.bg-white
-                .span12
-                  .row.bg-white.span12.offset1
-                    .controlPanel#limit.span3
-                      p.lysb Limit your search by:
-                        input.inputLimit(type="text")
-                    .merch.span8              
-                      div All > Twin > B/G
-                      .row
-                        .grid.item.span2
-                          p.item Sailor Suit
-                        .grid.item.span2
-                          p.item Sailor Suit
-                        .grid.item.span2
-                          p.item Sailor Suit
-                        .grid.item.span2
-                          p.item Sailor Suit
-                      .row
-                        .grid.item.span2
-                          p.item Sailor Suit
-                        .grid.item.span2
-                          p.item Sailor Suit
-                        .grid.item.span2
-                          p.item Sailor Suit
-                        .grid.item.span2
-                          p.item Sailor Suit
-                      .row
-                        .grid.item.span2
-                          p.item Sailor Suit
-                        .grid.item.span2
-                          p.item Sailor Suit
-                        .grid.item.span2
-                          p.item Sailor Suit
-                        .grid.item.span2
-                          p.item Sailor Suit
-
-            .grid.secondary-content
-              .row
-                .span6.offset1                  
-            .grid
-              .row
-                .span10.offset1.connect-footer           
-            .grid
-              .row
-                .span12
-                  ul.horizontal-menu.compact
-                    li.lh Link Here
-                    li.lh |
-                    li.lh Link Here
-                    li.lh |
-                    li.lh Link Here
-                    li.lh |
-                    li.lh Link Here
-                    li.lh |
-                    li.lh Link Here
-                    li.lh |
-                    li.lh Link Here
-    script(src="js/main.js")
+    
     script(src="js/main.js")

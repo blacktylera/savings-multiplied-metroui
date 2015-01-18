@@ -1,0 +1,41 @@
+@import "variables";
+@import "headings";
+
+
+/* styles for _second_page-grid.jade */
+.product_grid_container {
+	max-width: 1000px;
+	padding: 10px;
+}
+.product_grid_listing {
+	max-width: 1000px;
+}
+
+.product_file_path {
+	color: #89A253 !important;
+}
+
+.product_sort_by {
+	color: #89A253 !important;
+	font-size: 80% !important;
+	display: inline-block
+}
+.product_dropdown {
+	display: inline-block;
+}
+
+.productpage_navigation p {
+	color: #89A253;
+	display: inline-block;
+}
+
+.product_example {
+	width: 125px;
+	height: 125px;
+	background-color: #EDFAD1;
+	border: 1px solid #F3FCE4;
+} 
+
+.product_example_text {
+	color: #89A253 !important;
+}
