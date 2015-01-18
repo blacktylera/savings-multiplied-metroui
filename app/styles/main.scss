@@ -178,7 +178,7 @@ body .metro .grid .span12 .secondary-content .row {
 /* second-page-sidebar*/
 
 .span3.sidebar-column {
-  background-color: #EDFAD1 !important;
+  background-color: #EDFAD1;
   width: 33%;
 }
 
@@ -196,4 +196,7 @@ button.left-button {
 	height: 25px;
 	width: 55px;
 	background-color: #5fb373;;
+}
+.input.radio {
+	border: 1px solid lightgray;
 }
