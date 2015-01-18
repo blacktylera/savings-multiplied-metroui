@@ -40,3 +40,18 @@ body .metro .grid .span12 .secondary-content .row {
 #image-list {
 	margin: 5px 0 auto 5px;
 }
+
+/* Bryan's styling for main-content area
+=========================================== */
+
+
+.main-content { /* addressing negative -20 margin of .metro class */
+	margin-top: 20px;
+}
+
+.image-container-div { /* addressing negative -20px margin of .metro class */
+	margin-top: 20px;
+}
+
+
+
