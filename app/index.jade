@@ -10,13 +10,24 @@ html(lang="en-US")
 
 
   body
-    // [if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]
+    .metro
+      .grid.fluid
+        .row
+          .span12.bg-blue.text-center.big-bod
+            include ./partials/_header.jade
 
-    include ./partials/_header.jade
-    
-    include ./partials/_main-content.jade
-
-    include ./partials/_footer.jade
+            include ./partials/_main-content.jade
+            include ./partials/_footer.jade
+            include ./partials/_second-page-grid.jade
+            .grid
+              .row
+                .span12.margin20
+                  ul.horizontal-menu
+                    li Link Here
+                    li Link Here
+                    li Link Here
+                    li Link Here
+                    li Link Here
   
 
   
