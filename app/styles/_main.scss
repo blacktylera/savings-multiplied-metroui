@@ -1,7 +1,6 @@
 @import "variables";
 @import "headings";
 
-
 li {
 	padding: 10px;
 }
@@ -13,75 +12,6 @@ h2, h4 {
 	font-family: "Droid Sans", sans-serif;
 	font-weight: 600; 
 }
-
-
-
-/* Everything in this comment seems to be unused code - Bryan F
-
-.span5 {
-	height: 12em;
-	border-radius: 10px 10px 0 0; 
-}
-
-.inputSearch {
-	border-radius: 10px 10px 10px 10px;
-	width: 100px;
-	border: 2px solid black;
-}
-
-.inputLimit {
-	width: 150px;
-	float: top;
-	margin: 4px;
-}
-
-.merch {
-	background: white;
-	float: right;
-}
-
-.item {
-	margin: 26px;
-	color: black;
-	background: olive;
-	height: 10em;
-}
-
-.controlPanel {
-	background: olive;
-	float: left;
-	margin: 5%;
-	border-radius: 20px 20px 20px 20px;
-}
-
-
-
-
-
-
-
-/* Link here *\/
-.lh {
-	color: white;
-}
-
-
-
-
-/* left side panel - Limit your search by: *\/
-.lysb {
-	height: 40em;
-	border-radius: 10px 10px 10px 10px;
-	margin: 5%;
-}
-
-
-
-
-
-*/
-
-
 
 
 .acbp {
@@ -173,30 +103,3 @@ body .metro .grid .span12 .secondary-content .row {
 }
 
 */
-
-
-/* second-page-sidebar*/
-
-.span4.sidebar-column {
-  background-color: #EDFAD1 !important;
-  width: 33%;
-}
-
-.row.span4 {
-    height: 25%;
-    width: 100%;
-
-}
-
-.inputSearch {
-	border-radius: 1em;
-	width: 100px;
-	height: 25px;
-	border: 2px solid black;
-	background-color: lightgray;
-}
-
-.btn-search {
-	height: 25px;
-	width: 55px;
-}

@@ -1,0 +1,42 @@
+@import "variables";
+@import "headings";
+
+
+li {
+	padding: 10px;
+}
+
+/* We're making one aspect of life easier... */
+
+h2, h4 {
+	color: aqua;
+	font-family: "Droid Sans", sans-serif;
+	font-weight: 600; 
+}
+
+body .metro .grid .span12 > .top-info .maininfo > .row {
+	margin: -20px 9%;
+	max-width: 80%;
+	border-radius: 10px 10px 0 0; 
+}
+
+body .metro .grid .span12 > .top-info .maininfo > .row > .top-nav {
+	margin-left: 0;
+	padding-left: 20px;
+}
+
+
+body .metro .grid .span12 > .top-info .maininfo > .row > .top-pic {
+
+}
+
+body .metro .grid .span12 .secondary-content .row {
+	margin: -20px 9%;
+	background-color: white;
+	max-width: 80%;
+	border-radius: 0 0 10px 10px;
+}
+
+#image-list {
+	margin: 5px 0 auto 5px;
+}

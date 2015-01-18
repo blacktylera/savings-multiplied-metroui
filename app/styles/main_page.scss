@@ -1,11 +1,17 @@
 @import "variables";
 @import "headings";
-
+@import "footer";
+@import "_header";
+@import "main";
+@import "main-content";
 
 li {
 /*	padding: 20px;  */
 	padding: 20px;
 }
+
+
+
 
 .metro {
 	margin-top: -20px;
