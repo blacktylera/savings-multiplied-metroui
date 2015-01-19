@@ -1,54 +1,41 @@
-doctype html
-html(lang="en-US")
-  head
-    meta(charset="utf-8")
-    meta(http-equiv="X-UA-Compatible", content="IE=edge")
-    meta(name="viewport", content="width=device-width, initial-scale=1")
-    title My Title
-    link(rel="stylesheet" href="/vendor/Metro-UI-CSS/css/metro-bootstrap.css")
-    link(rel="stylesheet" href="css/main_page.css")
+.row.top-info
+  .horizontal-menu.padding10
+    ul.span3.offset8
+      li.top-link sign in
+      li.top-link |
+      li.top-link sign up
 
-  body.metro.grid.fluid
-    .row
-      .span12.bg-blue.text-center.big-bod
-        .row.top-info
-          .horizontal-menu.padding10
-            ul.span3.offset8
-              li.top-link sign in
-              li.top-link |
-              li.top-link sign up
-
-          .grid.maininfo
-            .row.span12.bg-white
-              .row.span4.bg-white
-                div
-                  a(href="index.html")
-                    img(src="https://raw.githubusercontent.com/elizabrock/SavingsMultipliedRedux/master/app/assets/images/savings-multiplied-logo.png")
-                .sign 
-                  p where parents of multiples save, sell & share
-              .span8.bg-white.margin20.nrm
-                div
-                  ul.unstyled.inline
-                    li#about.acbp 
-                      a(href="second_page.html") About
-                    li#contact.acbp Contact
-                    li#blog.acbp Blog
-                    li#press.acbp Press
+  .grid.maininfo
+    .row.span12.bg-white
+      .row.span4.bg-white
+        div
+          a(href="index.html")
+            img(src="https://raw.githubusercontent.com/elizabrock/SavingsMultipliedRedux/master/app/assets/images/savings-multiplied-logo.png")
+        .sign 
+          p where parents of multiples save, sell & share
+      .span8.bg-white.margin20.nrm
+        div
+          ul.unstyled.inline
+            li#about.acbp 
+              a(href="second_page.html") About
+            li#contact.acbp Contact
+            li#blog.acbp Blog
+            li#press.acbp Press
 
 
-        .grid.navagation-bar
-          .row.bg-pink.navigation-bar-content
-            nav.span9.offset1.element
-              .span2.buysell Buy
-              .span2.buysell Sell
-              .span2.buysell How it Works
-              .span2.buysell Links
-              .span2.buysell Community
-              .span2.element.input-element
-                form
-                  .input-control.text.margin20
-                    input(type="text" placeholder="search")
-                    button.btn-search
+.grid.navagation-bar
+  .row.bg-pink.navigation-bar-content
+    nav.span9.offset1.element
+      .span2.buysell Buy
+      .span2.buysell Sell
+      .span2.buysell How it Works
+      .span2.buysell Links
+      .span2.buysell Community
+      .span2.element.input-element
+        form
+          .input-control.text.margin20
+            input(type="text" placeholder="search")
+            button.btn-search
 
         
 
