@@ -179,7 +179,7 @@ body .metro .grid .span12 .secondary-content .row {
 
 .span3.sidebar-column {
   background-color: #EDFAD1;
-  width: 33%;
+  width: 35%;
 }
 
 .row.span4 {
@@ -199,4 +199,16 @@ button.left-button {
 }
 .input.radio {
 	border: 1px solid lightgray;
+}
+
+.row.span3.input-control.checkbox {
+	margin-top: 17px;
+}
+
+.metro .grid.fluid .row {
+	margin-top: 10px;
+}
+
+label {
+	font-weight: bold;
 }
