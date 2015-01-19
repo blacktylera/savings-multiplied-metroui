@@ -9,26 +9,25 @@ html(lang="en-US")
     link(rel="stylesheet" href="css/main.css")
 
   body
-    // [if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]
-
     .metro
-      .product_grid_container
-        .row
-          .product_grid_header
-          p.product_file_path.span3 "All > Twin > B/G"
-          lable.product_sort_by Sort by
-          select.product_dropdown.offset0
-            option Price
-            option Duration
-            option Popularity
-            option Seller Rating
-          .productpage_navigation.span4.offset4 
-            p prev. | page num. | next | view all
+      .grid.secondary-content.span8
+        .product_grid_container.span8.offset2
+          .row
+            .product_grid_header
+            p.product_file_path.span3 "All > Twin > B/G"
+            lable.product_sort_by Sort by
+            select.product_dropdown.offset0
+              option Price
+              option Duration
+              option Popularity
+              option Seller Rating
+            .productpage_navigation.span4.offset4 
+              p prev. | page num. | next | view all
 
-      
+        
         .grid.fluid.product_grid_listing
           .row
-            .span2.bg-lightgreen
+            .span2.bg-lightgreen.offset2
               .product_example
               p.product_example_text Sailor Suits $15.00
               p.product_example_text Jane Joe 4 hours
@@ -45,7 +44,7 @@ html(lang="en-US")
               p.product_example_text Sailor Suits $15.00
               p.product_example_text Jane Joe 4 hours
           .row
-            .span2.bg-lightgreen
+            .span2.bg-lightgreen.offset2
               .product_example
               p.product_example_text Sailor Suits $15.00
               p.product_example_text Jane Joe 4 hours
@@ -62,7 +61,7 @@ html(lang="en-US")
               p.product_example_text Sailor Suits $15.00
               p.product_example_text Jane Joe 4 hours
           .row
-            .span2.bg-lightgreen
+            .span2.bg-lightgreen.offset2
               .product_example
               p.product_example_text Sailor Suits $15.00
               p.product_example_text Jane Joe 4 hours
@@ -78,6 +77,8 @@ html(lang="en-US")
               .product_example
               p.product_example_text Sailor Suits $15.00
               p.product_example_text Jane Joe 4 hours
+
+
           
 
 
