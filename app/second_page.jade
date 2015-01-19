@@ -9,7 +9,10 @@ html(lang="en-US")
     link(rel="stylesheet" href="css/main_page.css")
 
   body
-
-    include ./partials/_header.jade
+    .metro
+      .grid.fluid
+        .row
+            .span12.bg-blue.text-center.big-bod
+                include ./partials/_header.jade
 
     script(src="js/main.js")
