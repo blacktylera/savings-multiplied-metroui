@@ -195,7 +195,7 @@ input.input-left {
 button.left-button {
 	height: 25px;
 	width: 55px;
-	background-color: #5fb373;;
+	background-color: #5fb373;
 }
 .input.radio {
 	border: 1px solid lightgray;
@@ -211,4 +211,11 @@ button.left-button {
 
 label {
 	font-weight: bold;
+}
+
+.row.sidebar-top hr {
+	width: 100%;
+	text-align: center;
+	color: #5fb373;
+	position: justify;
 }
