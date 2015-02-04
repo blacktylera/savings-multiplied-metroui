@@ -30,12 +30,12 @@
         // format the time
         var prettyTime = moment(endDate).format("MMM Do YY");
     
-        var $containerDiv = $('<div></div>');
-        var $priceDiv = $('<div>'+ price + '</div>');
-        var $endDateDiv = $('<div>'+ prettyTime + '</div>');
-        var $sellerDiv = $('<div>'+ seller + '</div>');
-        var $titleDiv = $('<div>'+ title + '</div>');
-        var $imageTag = $('<img src="'+ image + '"/>');
+        var $containerDiv = $('<div class="containerDiv"></div>');
+        var $priceDiv = $('<div class ="price">'+ price + '</div>');
+        var $endDateDiv = $('<div class="endDate">'+ prettyTime + '</div>');
+        var $sellerDiv = $('<div class="seller">'+ seller + '</div>');
+        var $titleDiv = $('<div class ="title">'+ title + '</div>');
+        var $imageTag = $('<img class="image" src="'+ image + '"/>');
 
 
         $containerDiv.append($imageTag);
