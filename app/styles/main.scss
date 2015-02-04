@@ -16,74 +16,6 @@ h2, h4 {
 
 
 
-/* Everything in this comment seems to be unused code - Bryan F
-
-.span5 {
-	height: 12em;
-	border-radius: 10px 10px 0 0; 
-}
-
-.inputSearch {
-	border-radius: 10px 10px 10px 10px;
-	width: 100px;
-	border: 2px solid black;
-}
-
-.inputLimit {
-	width: 150px;
-	float: top;
-	margin: 4px;
-}
-
-.merch {
-	background: white;
-	float: right;
-}
-
-.item {
-	margin: 26px;
-	color: black;
-	background: olive;
-	height: 10em;
-}
-
-.controlPanel {
-	background: olive;
-	float: left;
-	margin: 5%;
-	border-radius: 20px 20px 20px 20px;
-}
-
-
-
-
-
-
-
-/* Link here *\/
-.lh {
-	color: white;
-}
-
-
-
-
-/* left side panel - Limit your search by: *\/
-.lysb {
-	height: 40em;
-	border-radius: 10px 10px 10px 10px;
-	margin: 5%;
-}
-
-
-
-
-
-*/
-
-
-
-
 .acbp {
 	color: white;
 	width: 22%;
@@ -147,32 +79,9 @@ body .metro .grid .span12 .secondary-content .row {
 }
 
 
-
-/* This appears to be unused code - Bryan F
-
-#search-top {
-	margin-left: 13%;
-	margin-right: 12.5%;
-}
-
-*/
-
-
-
 #image-list {
 	margin: 5px 0 auto 5px;
 }
-
-
-
-/* This appears to be unused code - Bryan F
-
-.connect-footer {
-	margin: -20px 8.5%;
-	max-width: 80%;
-}
-
-*/
 
 
 /* second-page-sidebar*/
@@ -215,4 +124,10 @@ label {
 
 .row.sidebar-top p {
 	border-bottom: 1px solid green;
+}
+
+
+.containerDiv {
+  border: 1px solid red;
+
 }
