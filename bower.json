@@ -10,6 +10,7 @@
   "license": "MIT",
   "private": true,
   "dependencies": {
-    "Metro-UI-CSS": "https://github.com/olton/Metro-UI-CSS.git#~2.0.23"
+    "Metro-UI-CSS": "https://github.com/olton/Metro-UI-CSS.git#~2.0.23",
+    "moment": "~2.9.0"
   }
 }
