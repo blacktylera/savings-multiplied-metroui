@@ -26,6 +26,10 @@
         var title = item.title;
         var image = item.image;
 
+        if(!image){
+          image = 'http://www.remotepatrolled.com/wp-content/uploads/2011/04/sinbad-comedian.jpg';
+        }
+
 
         // format the time
         var prettyTime = moment(endDate).format("MMM Do YY");

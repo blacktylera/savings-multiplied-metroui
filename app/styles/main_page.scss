@@ -16,12 +16,14 @@ li {
 	background-color: white;
 	height: 50px;
 	margin-top: 40px;
+
 }
 .product_grid_listing {
 	max-width: 1600px;
 	margin-top: 20px;
 	margin-left: -30px;
 	height: 300px;
+	margin-bottom: 500px;
 }
 
 .product_file_path {
@@ -193,9 +195,22 @@ body .metro .grid .span12 .secondary-content .social .social__li {
 
 // New Styles for jQuery added content
 
-.containerDiv {
 
-	border: 1px solid red;
+.targetDiv {
+
+	background-color: $primary;
+    border-radius: 5%;
+
+	.containerDiv {
+		width:  23%;
+		display: inline-block;
+
+		.image {
+
+			width: 100px;
+			height: 100px;
+		}
+	}
 }
 
 
