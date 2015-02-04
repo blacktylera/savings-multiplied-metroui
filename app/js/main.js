@@ -35,7 +35,8 @@
         var $endDateDiv = $('<div>'+ prettyTime + '</div>');
         var $sellerDiv = $('<div>'+ seller + '</div>');
         var $titleDiv = $('<div>'+ title + '</div>');
-        var $imageTag = $('<img src='+ image + '/>');
+        var $imageTag = $('<img src="'+ image + '"/>');
+
 
         $containerDiv.append($imageTag);
         $containerDiv.append($titleDiv);
