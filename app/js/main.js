@@ -10,7 +10,7 @@
   });
 
 
-  function populator (event) {
+    function populator () {
     console.log("button clicked");
 
     $.get(url, function(res){
@@ -45,15 +45,9 @@
 
         $targetDiv.append($containerDiv);
       });
-
-
-
-
     
     });
-    
-
-
+  
   }
 
 
