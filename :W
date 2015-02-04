@@ -1,0 +1,60 @@
+doctype html
+html(lang="en-US")
+  head
+    meta(charset="utf-8")
+    meta(http-equiv="X-UA-Compatible", content="IE=edge")
+    meta(name="viewport", content="width=device-width, initial-scale=1")
+    title My Title
+    link(rel="stylesheet" href="/vendor/Metro-UI-CSS/css/metro-bootstrap.css")
+    link(rel="stylesheet" href="css/main.css")
+
+  body
+    .metro
+      .grid.secondary-content.span8
+        .product_grid_container.span8.offset2
+          .row
+            .product_grid_header
+            p.product_file_path.span3 "All > Twin > B/G"
+            lable.product_sort_by Sort by
+            select.product_dropdown.offset0
+              option Price
+              option Duration
+              option Popularity
+              option Seller Rating
+            .productpage_navigation.span4.offset4 
+              p prev. | page num. | next | view all
+
+        
+        .grid.fluid.product_grid_listing
+          .row
+            .span2.bg-lightgreen.offset2
+              .product_example
+            .span2.bg-lightgreen.offset2
+              .product_example 
+            .span2.bg-lightgreen.offset2
+              .product_example
+            .span2.bg-lightgreen.offset2
+              .product_example
+           .row
+            .span2.bg-lightgreen.offset2
+              .product_example
+            .span2.bg-lightgreen.offset2
+              .product_example 
+            .span2.bg-lightgreen.offset2
+              .product_example
+            .span2.bg-lightgreen.offset2
+              .product_example
+           .row
+            .span2.bg-lightgreen.offset2
+              .product_example
+            .span2.bg-lightgreen.offset2
+              .product_example 
+            .span2.bg-lightgreen.offset2
+              .product_example
+            .span2.bg-lightgreen.offset2
+              .product_example
+
+
+
+    
+    script(src="js/main.js")
