@@ -2,7 +2,8 @@
   'use strict';
 
   $(function init() {
-    $('.rocketButton'). on('click', populator)
+    $('.rocketButton'). on('click', populator);
+    console.log();
   } 
 
 
