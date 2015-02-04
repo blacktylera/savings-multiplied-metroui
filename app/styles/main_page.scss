@@ -193,24 +193,38 @@ body .metro .grid .span12 .secondary-content .social .social__li {
 
 
 
+
+
+
+
+
+
+
 // New Styles for jQuery added content
+.secondary-content {
+  margin-top: 50px;
+
+}
+
+.headerDiv {
+  height: 100px;
+  background-color:#00AFF0;
+}
 
 
 .targetDiv {
+  
+  .containerDiv {
+    width:  25%;
+    display: inline-block;
+    margin: 5px;
 
-	background-color: $primary;
-    border-radius: 5%;
-
-	.containerDiv {
-		width:  23%;
-		display: inline-block;
-
-		.image {
-
-			width: 100px;
-			height: 100px;
-		}
-	}
+    .image {
+      border: 2px solid $primary;
+      width: 100px;
+      height: 100px;
+    }
+  }
 }
 
 
